@@ -2,10 +2,22 @@
   "plugins": ["theme-default"],
   "pluginsConfig": {
     "theme-default": {
-      "style": {
-        "website": "styles/website.css",
-        "pdf": "styles/pdf.css",
-        "ebook": "styles/ebook.css"
+      "styles": {
+        "website": {
+          "css": [
+            "styles/website.css"
+          ]
+        },
+        "pdf": {
+          "css": [
+            "styles/pdf.css"
+          ]
+        },
+        "ebook": {
+          "css": [
+            "styles/ebook.css"
+          ]
+        }
       }
     }
   }
