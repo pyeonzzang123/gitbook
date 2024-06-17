@@ -1,6 +1,12 @@
 {
-    "plugins": ["-highlight", "-lunr", "-search", "search-pro", "theme-default"],
-    "styles": {
-        "website": "styles/custom.css"
+  "plugins": ["theme-default"],
+  "pluginsConfig": {
+    "theme-default": {
+      "style": {
+        "website": "styles/website.css",
+        "pdf": "styles/pdf.css",
+        "ebook": "styles/ebook.css"
+      }
     }
+  }
 }
