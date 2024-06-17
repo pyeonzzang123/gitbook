@@ -1,0 +1,6 @@
+{
+    "plugins": ["-highlight", "-lunr", "-search", "search-pro", "theme-default"],
+    "styles": {
+        "website": "styles/custom.css"
+    }
+}
